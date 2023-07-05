@@ -1,0 +1,100 @@
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.body{
+    box-sizing: border-box;
+    background: var(--bg-color);
+}
+#boo{
+    box-sizing: border-box;
+    height: 100vh;
+    
+}
+#main{
+    box-sizing: border-box;
+    /* height: 88vh; */
+    background: var(--bg-color);
+}
+#fileInput{
+    border: 2px dashed #b4b5bb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #b0b7cb;
+    cursor: pointer;
+    height: auto;
+    padding: 84px 24px 64px;
+    position: relative;
+    text-align: center;
+    background: #40424726;
+}
+
+#fileInput:hover{
+    background: #70727726;
+}
+
+#image, #imageRmv, img{
+    /* padding-left: 0.4rem; */
+    height: 22.5rem;
+}
+
+#footer{
+    background: var(--second-bg-color);
+
+}
+
+#footer h2 {
+    color: var(--main-color);
+}
+
+#gg{
+    background: #40424726;
+    border: 1px white solid;
+}
+
+/* form{
+    background: #40424726;
+    border: 1px white solid;
+} */
+
+label{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+#arrow{
+    /* color: var(--main-color);
+    z-index: 90; */
+    height: 3rem;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.u9900{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.u9900>h5{
+    font-weight: 800;
+    word-spacing: -0.3rem;
+    color: var(--text-color);
+}
+
+.u9900>h5>span{
+    color: var(--main-color);
+}
+
+.u9900>h5>span:hover{
+    color: rgb(155, 178, 253);
+}
