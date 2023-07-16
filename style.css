@@ -98,3 +98,9 @@ input[type="file"]{
 .u9900>h5>span:hover{
     color: rgb(155, 178, 253);
 }
+
+
+#footer-main{
+    position: sticky;
+    bottom: 0;
+}
